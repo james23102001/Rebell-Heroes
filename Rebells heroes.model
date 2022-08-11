@@ -1,0 +1,23 @@
+:Rebells heroes.model
+
+:Description
+	Jeu basé sur un système de missions, de gain d 'xp et de combats, collecte d' objets, de tokens, débloquage de nouveaux personnages et de nouveaux chapitres.
+
+:Programmation
+	Langage C, avec SDL
+
+: Etapes Niveau graphismes
+- Réaliser les personnages et chacune de leurs animations
+- Réaliser les sprites des compétences, des coups
+- Réaliser sprite de titre et de boosters
+- Réaliser sprites du background
+
+: Etapes niveau programmation
+- Grande étape : Navigation de menu sur SDL
+	- Afficher plusieurs surfaces de sortes à ce qu 'on puisse passer de l' une à l 'autre avec les touches du clavier ou via un event motion
+- Grande étape 2 : Permettre le déplacement des personnages sur une grande surface. Note   Ce n'est pas une map, juste un BG. Quelques éléments seront sur ce BG pour faire les temples.
+	- Gérer les collisions sur cette surface
+	- Gérer l'AI des adversaires
+- Grande étape 3 : Permettre le déplacement du personnage ( gauche et droite ) en animant son mouvement
+	
+   
